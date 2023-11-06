@@ -1,7 +1,11 @@
 // AboutMe.js
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function AboutMe() {
+    useEffect(() => {
+        document.title = 'jerryvc | About Me';
+    }, []);
+
     return (
         <div>
             <h1>About Me</h1>

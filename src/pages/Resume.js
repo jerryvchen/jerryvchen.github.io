@@ -1,7 +1,11 @@
 // Resume.js
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Resume() {
+    useEffect(() => {
+        document.title = 'jerryvc | Resume';
+    }, []);
+
     return (
         <div>
             <h1>Resume</h1>

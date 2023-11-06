@@ -1,7 +1,11 @@
 // Home.js
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Home() {
+    useEffect(() => {
+        document.title = 'jerryvc | Home';
+    }, []);
+
     return (
         <div>
             <h1>Welcome to jerryvc.com!</h1>

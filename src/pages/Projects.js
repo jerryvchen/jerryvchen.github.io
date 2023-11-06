@@ -1,7 +1,11 @@
 // Projects.js
-import React from 'react';
+import React, { useEffect } from 'react';
 
 function Projects() {
+    useEffect(() => {
+        document.title = 'jerryvc | Projects';
+    }, []);
+
     return (
         <div>
             <h1>Projects</h1>
