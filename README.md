@@ -1,3 +1,5 @@
 # jerryvc.com
 
-This is Jerry's website!
+Welcome to my website!
+
+This website aims to be lightweight, using React in Vite. 
