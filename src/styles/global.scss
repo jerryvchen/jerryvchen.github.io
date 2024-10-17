@@ -1,0 +1,28 @@
+$background-color: #1e1e1e;
+$primary-text-color: #f0eff4;
+$secondary-text-color: #70798c;
+$accent-color: #f3d34a;
+
+body {
+    background-color: $background-color;
+    color: $primary-text-color;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+p, a, span {
+    color: $secondary-text-color;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+.container, .container-fluid {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
