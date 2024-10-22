@@ -14,15 +14,3 @@ body {
 p, a, span {
     color: $secondary-text-color;
 }
-
-a {
-    text-decoration: none;
-    &:hover {
-        color: $accent-color;
-    }
-}
-
-.container, .container-fluid {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-}

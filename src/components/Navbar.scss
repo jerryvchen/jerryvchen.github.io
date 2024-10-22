@@ -1,0 +1,41 @@
+// make thinner
+.navbar {
+    height: auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navbar-nav .nav-link {
+    padding: 0 1rem;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    align-self: center;
+}
+
+.navbar-collapse {
+    padding: 0;
+    margin: 0;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+  
