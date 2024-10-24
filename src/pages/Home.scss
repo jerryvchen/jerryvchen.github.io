@@ -1,8 +1,29 @@
 .home-container {
     margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    width: 80%;
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+
 }
 
 .home-image {
-    max-width: 250px;
+    max-width: 300px;
     border-radius: 15%;
+}
+
+@media (max-width: 991px) {
+    .row {
+        width: 100%;
+    }
 }
