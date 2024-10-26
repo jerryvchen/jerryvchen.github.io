@@ -6,8 +6,9 @@ const Home: React.FC = () => {
         <div className="container home-container">
             <div className="row justify-content-center">
                 <div className="col-md-6 home-text">
-                    <h1>Hello</h1>
-                    <p>This is Jerry Chen</p>
+                    <h1>Hi!</h1>
+                    <h5>This is <b>Jerry Chen</b>, the monke &rarr;</h5>
+                    <p>CS @ Univeristy of California, Irvine</p>
                 </div>
                 <div className="col-md-6 text-center">
                     <img
@@ -16,6 +17,20 @@ const Home: React.FC = () => {
                      className="home-image"
                     />
                 </div>
+            </div>
+            <div className="positions-section">
+                <h2>Current Positions</h2>
+                <ul className="positions-list">
+                    <li><b>Student Researcher</b> - Vision Group @ UCI</li>
+                    <ul>
+                        <li>Led by Alexander C. Berg and Charless C. Fowlkes</li>
+                    </ul>
+                    <li><b>Treasurer</b> - ACM @ UCI</li>
+                    <ul>
+                        <li>See https://www.acm-uci.org/</li>
+                    </ul>
+                </ul>
+                
             </div>
         </div>
     );
