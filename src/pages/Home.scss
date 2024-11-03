@@ -1,3 +1,8 @@
+$background-color: #1e1e1e;
+$primary-text-color: #f0eff4;
+$secondary-text-color: #70798c;
+$accent-color: #f3d34a;
+
 .home-container {
     margin-top: 5rem;
     display: flex;
@@ -15,7 +20,6 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
-
 }
 
 .home-image {
@@ -24,32 +28,33 @@
 }
 
 .positions-section {
-    margin-top: 3rem;
-    text-align: left;
-    width: 80%; 
-  }
-  
-  .positions-list {
-    margin-top: 0.8rem;
-    list-style: none;
-    padding: 0;
-    text-align: left;
-  }
-  
-  .positions-list > li {
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
-  }
+  margin-top: 3rem;
+  text-align: left;
+  width: 80%; 
+}
 
-  .positions-list li ul {
-    list-style-type: circle;
-    margin-left: 1.5rem;
-    font-size: 0.95rem;
-  }
+.positions-list {
+  margin-top: 0.8rem;
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
 
-  .positions-list li ul li {
-    margin-bottom: 0.5rem;
-  }
+.positions-list > li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: $primary-text-color;
+}
+
+.positions-list li ul {
+  list-style-type: circle;
+  margin-left: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.positions-list li ul li {
+  margin-bottom: 0.5rem;
+}
 
 @media (max-width: 991px) {
     .row, .positions-section {

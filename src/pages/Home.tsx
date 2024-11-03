@@ -30,7 +30,6 @@ const Home: React.FC = () => {
                         <li>See https://www.acm-uci.org/</li>
                     </ul>
                 </ul>
-                
             </div>
         </div>
     );
