@@ -4,8 +4,8 @@ import './About.scss';
 const About: React.FC = () => {
     return (
         <div className="container about-container">
-            <h1>About</h1>
-            <div>
+            <div className="about-text">
+                <h1>About</h1>
                 <p>idk</p>
             </div>
             <div className="hobbies-section">
