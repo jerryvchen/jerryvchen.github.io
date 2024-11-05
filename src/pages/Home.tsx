@@ -1,4 +1,5 @@
 import React from "react";
+import myPhoto from "../assets/jerryvc_photo.png";
 import './Home.scss';
 
 const Home: React.FC = () => {
@@ -12,7 +13,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className="col-md-6 text-center">
                     <img
-                     src="src/assets/jerryvc_photo.png"
+                     src={myPhoto}
                      alt="Photo of Jerry Chen"
                      className="home-image"
                     />
