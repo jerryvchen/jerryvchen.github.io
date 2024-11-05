@@ -18,6 +18,15 @@ $accent-color: #f3d34a;
     align-items: left;
 }
 
+.about-text b,
+.hobbies-section .hobbies-list ul li b, 
+.hobbies-section .hobbies-list ul li a {
+  color: $primary-text-color;
+}
+
+.contact-section a {
+  color: $primary-text-color;
+}
 
 @media (max-width: 991px) {
     .about-text,
