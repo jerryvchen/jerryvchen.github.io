@@ -40,7 +40,7 @@ $accent-color: #f3d34a;
   text-align: left;
 }
 
-.positions-list>li {
+.positions-list > li {
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
   color: $primary-text-color;
@@ -54,6 +54,10 @@ $accent-color: #f3d34a;
 
 .positions-list li ul li {
   margin-bottom: 0.5rem;
+}
+
+.positions-list a {
+  color: $primary-text-color;
 }
 
 @media (max-width: 991px) {
